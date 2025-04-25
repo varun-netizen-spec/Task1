@@ -46,17 +46,7 @@ Run the cells in order.
 
 Check the output of each model and compare performance.
 
-Sample Code Snippet 🧪
-python
-Copy
-Edit
-from sklearn.ensemble import RandomForestClassifier
-model = RandomForestClassifier()
-model.fit(X_train, y_train)
-pred = model.predict(X_test)
-print("Accuracy:", accuracy_score(y_test, pred))
-Results 📌
-Best accuracy achieved with: XGBoost
+
 
 Feature importance shows Sex, Fare, and Pclass are highly influential.
 
@@ -71,4 +61,4 @@ Fork the repo, improve the model or visualization, and submit a PR!
 License 📄
 Open source for learning and educational purposes.
 
-Would you like me to generate a version of this as a downloadable .md file or integrate it into your code notebook too?
+
